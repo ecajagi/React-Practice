@@ -7,18 +7,6 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {}
-    //
-    //const movies ={
-    //  id:0, poster_src="", title="", overview=""
-    //}
-    //
-    //var movieRows = []
-    //movies.forEach((movie) => {
-    //  const movieRow = <MovieRow movie={movie} />
-    //  movieRows.push(movieRow)
-    //})
-    //
-    //this.state = {rows: movieRows}
 
     this.performSearch("avengers")
   }

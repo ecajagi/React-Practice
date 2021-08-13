@@ -12,7 +12,7 @@ viewMovie() {
         <tbody>
           <tr>
             <td>
-              <img alt="poster" width="100" src={this.props.movie.poster_src}/>
+              <img alt="poster" width="150" src={this.props.movie.poster_src}/>
             </td>
             <td>
               <h3>{this.props.movie.title}</h3>
