@@ -1,5 +1,13 @@
 img {
   padding:1vh 1vh;
+  border-radius:1em;
+}
+
+.boxContainer{
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px #00308F;
+  margin: 20px;
+  min-width: 40%;
 }
 
 .titleBar {
@@ -16,6 +24,22 @@ img {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.myBtn {
+  background-color: #00308F;
+  color:#fff;
+  border-radius:1em;
+  padding:0.5vh 0.5vh;
+  margin: 10px 16px;
+}
+
+.myBtnInPopup {
+  background-color: #282c34;
+  color:#fff;
+  border-radius:1em;
+  padding:0.5vh 0.5vh;
+  margin: 10px 16px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

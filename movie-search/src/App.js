@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import MovieRow from './MovieRow.js';
+import MovieRow from './MovieRow';
 import $ from 'jquery';
+import PopUp from './Popup'
 
 class App extends Component {
   constructor(props) {
@@ -67,6 +68,7 @@ class App extends Component {
           paddingBottom:8,
           paddingLeft: 16
         }}placeholder="enter movie title" onChange={this.searchChangeHandler.bind(this)}/>
+        <PopUp />
         {this.state.rows}
       </div>
     );
